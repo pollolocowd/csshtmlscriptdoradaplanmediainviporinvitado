@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mis XV Años - Fabiola</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Cinzel:wght@400;700&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500&display=swap" rel="stylesheet">
+<!-- CSS -->
+<link rel="stylesheet" href="css/estilos.css">
+
+</head>
+<body>
+<div id="intro">
+  <div class="intro-content">
+    <h1>Fabiola</h1>
+    <p>Mis XV Años</p>
+    <button onclick="abrirInvitacion()">Abrir Invitación</button>
+  </div>
+</div>
+
+<audio id="musica" loop>
+  <source src="musica.mp3" type="audio/mpeg">
+</audio>
+<button class="music-btn" onclick="toggleMusic()">🎵</button>
+
+<div class="container">
+
+  <!-- PORTADA -->
+<div class="section">
+  <h1>Fabiola</h1>
+  <p>Mis XV Años</p>
+  <p>15 de Agosto 2026</p>
+
+  <div class="foto-magica">
+    <img src="https://i.postimg.cc/BQjt8Rsh/Copia-de-Copia-de-Copia-de-Copia-de-Copia-de-Copia-de-Copia-de-Copia-de-Cop-20260316-210824-0000.png">
+    <canvas id="polvo"></canvas>
+  </div>
+
+</div>
+<!-- CONTADOR -->
+<div class="section">
+<h2>Cuenta Regresiva</h2>
+
+<div class="countdown">
+
+<div class="flip-box">
+<div class="flip" id="dias">00</div>
+<p>Días</p>
+</div>
+
+<div class="flip-box">
+<div class="flip" id="horas">00</div>
+<p>Horas</p>
+</div>
+
+<div class="flip-box">
+<div class="flip" id="minutos">00</div>
+<p>Min</p>
+</div>
+
+<div class="flip-box">
+<div class="flip" id="segundos">00</div>
+<p>Seg</p>
+</div>
+
+</div>
+
+</div>
+
+  <!-- MENSAJE -->
+<div class="section sparkle-card">
+<p>Con la bendición de Dios<br>y el amor de mis padres<br>te invito a celebrar conmigo<br>este momento tan especial <span class="corazon">❤</span></p>
+</div>
+
+
+  <!-- PADRES -->
+<div class="section sparkle-card">
+<h2>Mis Padres</h2>
+<p>Ana Martínez</p>
+<p>Carlos González</p>
+</div>
+
+  <!-- PADRINOS -->
+<div class="section sparkle-card">
+<h2>Mis Padrinos</h2>
+<p>Laura Hernández</p>
+<p>Roberto Sánchez</p>
+</div>
+
+<!-- CEREMONIA -->
+<div class="section">
+<h2>Ceremonia Religiosa</h2>
+
+<p>Parroquia San Miguel</p>
+<p>4:00 PM</p>
+
+<img src="https://i.postimg.cc/Y9rkgDGV/Copia-de-Copia-de-Copia-de-Copia-de-Copia-de-Copia-de-Copia-de-Copia-de-Cop-20260316-222847-0000.png">
+
+<a class="btn" href="https://maps.google.com" target="_blank">
+Ver ubicación
+</a>
+
+</div>
+
+  <!-- RECEPCION -->
+  <div class="section">
+    <h2>Recepción</h2>
+    <p>Salón Jardín Real</p>
+    <p>7:00 PM</p>
+    <img src="https://i.postimg.cc/y6rBgP1H/Copia-de-Copia-de-Copia-de-Copia-de-Copia-de-Copia-de-Copia-de-Copia-de-Cop-20260316-222956-0000.png">
+    <a class="btn" href="https://maps.google.com" target="_blank">Cómo llegar</a>
+  </div>
+
+  <!-- ITINERARIO -->
+  <div class="section">
+    <h2>Itinerario del Evento</h2>
+    <div class="timeline">
+      <div class="timeline-item"><div class="circle">👥</div><div class="content"><span>7:30 pm</span>Llegada de invitados</div></div>
+      <div class="timeline-item"><div class="circle heart">❤</div><div class="content"><span>8:00 pm</span>Presentación</div></div>
+      <div class="timeline-item"><div class="circle">🎵</div><div class="content"><span>8:30 pm</span>Vals</div></div>
+      <div class="timeline-item"><div class="circle">🥂</div><div class="content"><span>8:45 pm</span>Brindis</div></div>
+      <div class="timeline-item"><div class="circle">🍽</div><div class="content"><span>8:50 pm</span>Cena</div></div>
+      <div class="timeline-item"><div class="circle">💿</div><div class="content"><span>9:35 pm</span>Fiesta DJ</div></div>
+    </div>
+  </div>
+
+  <!-- VESTIMENTA -->
+<div class="section">
+<h2>Código de Vestimenta</h2>
+
+<div class="dress-code">
+
+<div class="dress-item">
+<i class="fa-solid fa-user-tie"></i>
+<p>Hombres<br>Traje Formal</p>
+</div>
+
+<div class="dress-item">
+<i class="fa-solid fa-person-dress"></i>
+<p>Mujeres<br>Vestido Elegante</p>
+</div>
+
+</div>
+
+<p style="margin-top:15px; font-size:15px;">
+Evitar jeans y tenis
+</p>
+
+</div>
+
+  <!-- GALERIA -->
+ <div class="section gallery">
+<h2>Galería</h2>
+
+<div class="slider">
+<img src="https://i.postimg.cc/c1DLS362/56668-2.jpg">
+<img src="https://i.postimg.cc/6QwXR6yH/1773726183188-2.jpg">
+<img src="https://i.postimg.cc/VsTPgWJ5/1773725975209-2.jpg">
+</div>
+
+</div>
+
+  <!-- SOBRE DE REGALOS -->
+  <div class="section">
+    <h2>🎁 Sobre de Regalos</h2>
+    <p>Tu presencia es el mejor regalo, pero si deseas obsequiar algo más puedes hacerlo mediante transferencia.</p>
+    <button class="accordion">Ver datos bancarios</button>
+    <div class="panel">
+      <p><strong>Banco:</strong> BBVA Bancomer</p>
+      <p><strong>Beneficiario:</strong> Valeria González Martínez</p>
+      <p><strong>Número de cuenta:</strong> 012345678901234567</p>
+      <p><strong>CLABE:</strong> 012345678901234567</p>
+    </div>
+  </div>
+
+<!-- CONFIRMACION -->
+<div class="section">
+<h2>Confirmar Asistencia</h2>
+<p>Por favor confirma antes del 1 de Agosto</p>
+
+<form id="confirmacionForm">
+
+<input type="text" id="nombre" placeholder="Tu nombre" required>
+
+<input type="number" id="personas" placeholder="Número de personas" required>
+
+<textarea id="mensaje" placeholder="Mensaje o felicitación"></textarea>
+
+<button type="submit" class="btn">Confirmar Asistencia</button>
+
+</form>
+
+</div>
+
+ <div class="section" id="trivia">
+  <h2>Trivia sobre Fabiola 🎉</h2>
+  <div id="pregunta"></div>
+  <div id="opciones"></div>
+  <button id="siguiente" class="btn" style="display:none;">
+Siguiente <i class="fa-solid fa-arrow-right"></i>
+</button>
+  <div id="resultado" style="margin-top:15px;"></div>
+</div>
+ 
+  <!-- FINAL -->
+<div class="section">
+<p id="agradecimiento">Tu presencia hará este día aún más especial</p>
+<h2>¡Nos vemos en la celebración!</h2>
+</div>
+
+</div>
+
+<!-- JS -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
+
